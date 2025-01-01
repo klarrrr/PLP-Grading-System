@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeacherDashboard.vb",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb",
+              "RelativeDocumentMoniker": "GradingSystemApp\\TeacherDashboard.vb",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb",
+              "RelativeToolTip": "GradingSystemApp\\TeacherDashboard.vb",
+              "ViewState": "AgIAAPgBAAAAAAAAAAAAwAkCAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-01T08:37:13.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherDashboard.vb [Design]",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb",
+              "RelativeDocumentMoniker": "GradingSystemApp\\TeacherDashboard.vb",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb [Design]",
+              "RelativeToolTip": "GradingSystemApp\\TeacherDashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-01T08:37:03.655Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

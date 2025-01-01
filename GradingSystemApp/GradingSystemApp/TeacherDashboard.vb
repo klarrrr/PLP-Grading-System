@@ -514,15 +514,25 @@ ORDER BY
             End If
             Using con As New MySqlConnection(MySqlString)
                 con.Open()
-                Using cmd As New MySqlCommand("UPDATE admins SET admin_username = @new_username, admin_password = @new_password WHERE admin_username = '" & LoggedInUsername & "'", con)
+                Using cmd As New MySqlCommand("UPDATE professors SET prof_first_name = @prof_first_name, prof_last_name = @prof_last_name, prof_middle_name = @prof_middle_name, 
+                                                prof_email = @prof_email, prof_username = @prof_username, prof_password = @prof_password WHERE prof_username = '" & LoggedInUsername & "'", con)
                     cmd.Parameters.Clear()
-                    cmd.Parameters.AddWithValue("@new_username", ProfUsername.Text)
-                    cmd.Parameters.AddWithValue("@new_password", ProfPassword.Text)
+                    cmd.Parameters.AddWithValue("@prof_first_name", ProfFirstName.Text)
+                    cmd.Parameters.AddWithValue("@prof_last_name", ProfLastName.Text)
+                    cmd.Parameters.AddWithValue("@prof_middle_name", ProfMiddleName.Text)
+                    cmd.Parameters.AddWithValue("@prof_email", ProfEmail.Text)
+                    cmd.Parameters.AddWithValue("@prof_username", ProfUsername.Text)
+                    cmd.Parameters.AddWithValue("@prof_password", ProfPassword.Text)
                     cmd.ExecuteNonQuery()
                 End Using
             End Using
             LoggedInUsername = ProfUsername.Text
             Form1.ProfessorUsername.Text = LoggedInUsername
+            AttendanceProfLbl.Text = LoggedInUsername
+            CatProfLbl.Text = LoggedInUsername
+            FinalGradeProfLbl.Text = LoggedInUsername
+            ScoringProfLbl.Text = LoggedInUsername
+            SettingsProfLbl.Text = LoggedInUsername
             MessageBox.Show("Your information was successfully updated.")
         ElseIf ProfFirstName.Text = "" AndAlso ProfLastName.Text = "" AndAlso ProfEmail.Text = "" AndAlso
         ProfUsername.Text = "" Then

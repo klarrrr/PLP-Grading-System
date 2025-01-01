@@ -145,11 +145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program\\.NET\\GradingSystemApp\\GradingSystemApp\\GradingSystemApp.vbproj",
+      "projectUniqueName": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\GradingSystemApp.vbproj",
       "projectName": "GradingSystemApp",
-      "projectPath": "D:\\Program\\.NET\\GradingSystemApp\\GradingSystemApp\\GradingSystemApp.vbproj",
+      "projectPath": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\GradingSystemApp.vbproj",
       "packagesPath": "C:\\Users\\PLPASIG\\.nuget\\packages\\",
-      "outputPath": "D:\\Program\\.NET\\GradingSystemApp\\GradingSystemApp\\obj\\",
+      "outputPath": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
