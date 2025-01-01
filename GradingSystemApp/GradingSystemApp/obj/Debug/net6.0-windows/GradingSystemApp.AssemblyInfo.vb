@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("GradingSystemApp"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d95356e3e96e94eaaf18895b5b0de8b50e8a9fa"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bac31f5b6bd19e7fdd996720fbc8e68be1ae829"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("GradingSystemApp"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("GradingSystemApp"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

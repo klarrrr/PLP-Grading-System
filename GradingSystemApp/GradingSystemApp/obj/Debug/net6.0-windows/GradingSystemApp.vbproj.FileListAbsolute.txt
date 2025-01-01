@@ -38,7 +38,6 @@ D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystem
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.vbproj.AssemblyReference.cache
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.AdminDashboard.resources
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.Form1.resources
-D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.Form2.resources
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.Resources.resources
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.TeacherDashboard.resources
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.vbproj.GenerateResource.cache
@@ -53,3 +52,4 @@ D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystem
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.pdb
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\GradingSystemApp.genruntimeconfig.cache
 D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\obj\Debug\net6.0-windows\ref\GradingSystemApp.dll
+D:\Program\Cloned-Repositories\PLP-Grading-System\GradingSystemApp\GradingSystemApp\bin\Debug\net6.0-windows\GradingSystemApp.dll.config

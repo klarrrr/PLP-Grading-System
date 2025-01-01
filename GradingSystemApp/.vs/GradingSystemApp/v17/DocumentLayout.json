@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\teacherdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\admindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\admindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\admindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\admindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|d:\\program\\cloned-repositories\\plp-grading-system\\gradingsystemapp\\gradingsystemapp\\listviewitemcomparer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C00539B7-97DB-4233-8B61-B824032F83D6}|GradingSystemApp\\GradingSystemApp.vbproj|solutionrelative:gradingsystemapp\\listviewitemcomparer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +46,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\My Project\\Settings.settings",
+              "RelativeDocumentMoniker": "GradingSystemApp\\My Project\\Settings.settings",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\My Project\\Settings.settings",
+              "RelativeToolTip": "GradingSystemApp\\My Project\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-01-01T10:05:19.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TeacherDashboard.vb",
-              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb",
-              "RelativeDocumentMoniker": "GradingSystemApp\\TeacherDashboard.vb",
-              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb",
-              "RelativeToolTip": "GradingSystemApp\\TeacherDashboard.vb",
-              "ViewState": "AgIAAPgBAAAAAAAAAAAAwAkCAABZAAAAAAAAAA==",
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\Form1.vb",
+              "RelativeDocumentMoniker": "GradingSystemApp\\Form1.vb",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\Form1.vb",
+              "RelativeToolTip": "GradingSystemApp\\Form1.vb",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAqwMIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-01T08:37:13.146Z",
+              "WhenOpened": "2025-01-01T09:24:26.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TeacherDashboard.vb [Design]",
-              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb",
-              "RelativeDocumentMoniker": "GradingSystemApp\\TeacherDashboard.vb",
-              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\TeacherDashboard.vb [Design]",
-              "RelativeToolTip": "GradingSystemApp\\TeacherDashboard.vb [Design]",
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\Form1.vb",
+              "RelativeDocumentMoniker": "GradingSystemApp\\Form1.vb",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\Form1.vb [Design]",
+              "RelativeToolTip": "GradingSystemApp\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-01T08:37:03.655Z",
+              "WhenOpened": "2025-01-01T09:15:05.317Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminDashboard.vb [Design]",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\AdminDashboard.vb",
+              "RelativeDocumentMoniker": "GradingSystemApp\\AdminDashboard.vb",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\AdminDashboard.vb [Design]",
+              "RelativeToolTip": "GradingSystemApp\\AdminDashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-01T09:19:06.751Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminDashboard.vb",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\AdminDashboard.vb",
+              "RelativeDocumentMoniker": "GradingSystemApp\\AdminDashboard.vb",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\AdminDashboard.vb",
+              "RelativeToolTip": "GradingSystemApp\\AdminDashboard.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwB0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-01T09:15:29.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListViewItemComparer.vb",
+              "DocumentMoniker": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\ListViewItemComparer.vb",
+              "RelativeDocumentMoniker": "GradingSystemApp\\ListViewItemComparer.vb",
+              "ToolTip": "D:\\Program\\Cloned-Repositories\\PLP-Grading-System\\GradingSystemApp\\GradingSystemApp\\ListViewItemComparer.vb",
+              "RelativeToolTip": "GradingSystemApp\\ListViewItemComparer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-01T09:15:07.564Z",
+              "EditorCaption": ""
             }
           ]
         },

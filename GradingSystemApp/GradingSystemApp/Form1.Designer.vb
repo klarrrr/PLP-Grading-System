@@ -24,12 +24,12 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         TeacherSignInCard = New MaterialSkin.Controls.MaterialCard()
-        MaterialLabel11 = New MaterialSkin.Controls.MaterialLabel()
+        CreateAccountProfBtn = New MaterialSkin.Controls.MaterialLabel()
         MaterialLabel10 = New MaterialSkin.Controls.MaterialLabel()
         ProfessorGoBack = New MaterialSkin.Controls.MaterialLabel()
         MaterialLabel5 = New MaterialSkin.Controls.MaterialLabel()
         MaterialLabel4 = New MaterialSkin.Controls.MaterialLabel()
-        MaterialCheckbox1 = New MaterialSkin.Controls.MaterialCheckbox()
+        RemMeChkBox = New MaterialSkin.Controls.MaterialCheckbox()
         TeacherLogin = New MaterialSkin.Controls.MaterialButton()
         ProfessorPassword = New MaterialSkin.Controls.MaterialTextBox()
         ProfessorUsername = New MaterialSkin.Controls.MaterialTextBox()
@@ -58,7 +58,7 @@ Partial Class Form1
         MaterialLabel12 = New MaterialSkin.Controls.MaterialLabel()
         MaterialLabel7 = New MaterialSkin.Controls.MaterialLabel()
         MaterialLabel13 = New MaterialSkin.Controls.MaterialLabel()
-        MaterialCheckbox3 = New MaterialSkin.Controls.MaterialCheckbox()
+        RemMeAdminBox = New MaterialSkin.Controls.MaterialCheckbox()
         AdminGoBack = New MaterialSkin.Controls.MaterialLabel()
         AdminLoginBtn = New MaterialSkin.Controls.MaterialButton()
         AdminPasswordTxtBox = New MaterialSkin.Controls.MaterialTextBox()
@@ -67,6 +67,19 @@ Partial Class Form1
         PictureBox11 = New PictureBox()
         MaterialLabel8 = New MaterialSkin.Controls.MaterialLabel()
         MaterialLabel9 = New MaterialSkin.Controls.MaterialLabel()
+        RegisterProfessorCard = New MaterialSkin.Controls.MaterialCard()
+        GoBackToProfSignIn = New MaterialSkin.Controls.MaterialLabel()
+        ProfClearBtn = New MaterialSkin.Controls.MaterialButton()
+        MaterialLabel14 = New MaterialSkin.Controls.MaterialLabel()
+        MaterialLabel15 = New MaterialSkin.Controls.MaterialLabel()
+        ProfConfirmPass = New MaterialSkin.Controls.MaterialTextBox()
+        ProfPassword = New MaterialSkin.Controls.MaterialTextBox()
+        ProfUsername = New MaterialSkin.Controls.MaterialTextBox()
+        ProfEmail = New MaterialSkin.Controls.MaterialTextBox()
+        ProfRegisterBtn = New MaterialSkin.Controls.MaterialButton()
+        ProfMiddleName = New MaterialSkin.Controls.MaterialTextBox()
+        ProfLastName = New MaterialSkin.Controls.MaterialTextBox()
+        ProfFirstName = New MaterialSkin.Controls.MaterialTextBox()
         TeacherSignInCard.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -80,17 +93,18 @@ Partial Class Form1
         AdminSignInCard.SuspendLayout()
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
+        RegisterProfessorCard.SuspendLayout()
         SuspendLayout()
         ' 
         ' TeacherSignInCard
         ' 
         TeacherSignInCard.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(255))
-        TeacherSignInCard.Controls.Add(MaterialLabel11)
+        TeacherSignInCard.Controls.Add(CreateAccountProfBtn)
         TeacherSignInCard.Controls.Add(MaterialLabel10)
         TeacherSignInCard.Controls.Add(ProfessorGoBack)
         TeacherSignInCard.Controls.Add(MaterialLabel5)
         TeacherSignInCard.Controls.Add(MaterialLabel4)
-        TeacherSignInCard.Controls.Add(MaterialCheckbox1)
+        TeacherSignInCard.Controls.Add(RemMeChkBox)
         TeacherSignInCard.Controls.Add(TeacherLogin)
         TeacherSignInCard.Controls.Add(ProfessorPassword)
         TeacherSignInCard.Controls.Add(ProfessorUsername)
@@ -108,19 +122,19 @@ Partial Class Form1
         TeacherSignInCard.TabIndex = 0
         TeacherSignInCard.Visible = False
         ' 
-        ' MaterialLabel11
+        ' CreateAccountProfBtn
         ' 
-        MaterialLabel11.AutoSize = True
-        MaterialLabel11.Cursor = Cursors.Hand
-        MaterialLabel11.Depth = 0
-        MaterialLabel11.Font = New Font("Roboto", 12F, FontStyle.Italic, GraphicsUnit.Pixel)
-        MaterialLabel11.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis
-        MaterialLabel11.Location = New Point(1047, 461)
-        MaterialLabel11.MouseState = MaterialSkin.MouseState.HOVER
-        MaterialLabel11.Name = "MaterialLabel11"
-        MaterialLabel11.Size = New Size(86, 15)
-        MaterialLabel11.TabIndex = 19
-        MaterialLabel11.Text = "Create Account"
+        CreateAccountProfBtn.AutoSize = True
+        CreateAccountProfBtn.Cursor = Cursors.Hand
+        CreateAccountProfBtn.Depth = 0
+        CreateAccountProfBtn.Font = New Font("Roboto", 12F, FontStyle.Italic, GraphicsUnit.Pixel)
+        CreateAccountProfBtn.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis
+        CreateAccountProfBtn.Location = New Point(1047, 461)
+        CreateAccountProfBtn.MouseState = MaterialSkin.MouseState.HOVER
+        CreateAccountProfBtn.Name = "CreateAccountProfBtn"
+        CreateAccountProfBtn.Size = New Size(86, 15)
+        CreateAccountProfBtn.TabIndex = 19
+        CreateAccountProfBtn.Text = "Create Account"
         ' 
         ' MaterialLabel10
         ' 
@@ -176,22 +190,22 @@ Partial Class Form1
         MaterialLabel4.TabIndex = 14
         MaterialLabel4.Text = "Sign in"
         ' 
-        ' MaterialCheckbox1
+        ' RemMeChkBox
         ' 
-        MaterialCheckbox1.AutoSize = True
-        MaterialCheckbox1.Depth = 0
-        MaterialCheckbox1.ForeColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        MaterialCheckbox1.Location = New Point(1102, 279)
-        MaterialCheckbox1.Margin = New Padding(0)
-        MaterialCheckbox1.MouseLocation = New Point(-1, -1)
-        MaterialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER
-        MaterialCheckbox1.Name = "MaterialCheckbox1"
-        MaterialCheckbox1.ReadOnly = False
-        MaterialCheckbox1.Ripple = True
-        MaterialCheckbox1.Size = New Size(137, 37)
-        MaterialCheckbox1.TabIndex = 9
-        MaterialCheckbox1.Text = "Remember me"
-        MaterialCheckbox1.UseVisualStyleBackColor = True
+        RemMeChkBox.AutoSize = True
+        RemMeChkBox.Depth = 0
+        RemMeChkBox.ForeColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
+        RemMeChkBox.Location = New Point(1102, 279)
+        RemMeChkBox.Margin = New Padding(0)
+        RemMeChkBox.MouseLocation = New Point(-1, -1)
+        RemMeChkBox.MouseState = MaterialSkin.MouseState.HOVER
+        RemMeChkBox.Name = "RemMeChkBox"
+        RemMeChkBox.ReadOnly = False
+        RemMeChkBox.Ripple = True
+        RemMeChkBox.Size = New Size(137, 37)
+        RemMeChkBox.TabIndex = 9
+        RemMeChkBox.Text = "Remember me"
+        RemMeChkBox.UseVisualStyleBackColor = True
         ' 
         ' TeacherLogin
         ' 
@@ -553,7 +567,7 @@ Partial Class Form1
         AdminSignInCard.Controls.Add(MaterialLabel12)
         AdminSignInCard.Controls.Add(MaterialLabel7)
         AdminSignInCard.Controls.Add(MaterialLabel13)
-        AdminSignInCard.Controls.Add(MaterialCheckbox3)
+        AdminSignInCard.Controls.Add(RemMeAdminBox)
         AdminSignInCard.Controls.Add(AdminGoBack)
         AdminSignInCard.Controls.Add(AdminLoginBtn)
         AdminSignInCard.Controls.Add(AdminPasswordTxtBox)
@@ -614,22 +628,22 @@ Partial Class Form1
         MaterialLabel13.TabIndex = 21
         MaterialLabel13.Text = "Forgot Password"
         ' 
-        ' MaterialCheckbox3
+        ' RemMeAdminBox
         ' 
-        MaterialCheckbox3.AutoSize = True
-        MaterialCheckbox3.Depth = 0
-        MaterialCheckbox3.ForeColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        MaterialCheckbox3.Location = New Point(1107, 279)
-        MaterialCheckbox3.Margin = New Padding(0)
-        MaterialCheckbox3.MouseLocation = New Point(-1, -1)
-        MaterialCheckbox3.MouseState = MaterialSkin.MouseState.HOVER
-        MaterialCheckbox3.Name = "MaterialCheckbox3"
-        MaterialCheckbox3.ReadOnly = False
-        MaterialCheckbox3.Ripple = True
-        MaterialCheckbox3.Size = New Size(137, 37)
-        MaterialCheckbox3.TabIndex = 9
-        MaterialCheckbox3.Text = "Remember me"
-        MaterialCheckbox3.UseVisualStyleBackColor = True
+        RemMeAdminBox.AutoSize = True
+        RemMeAdminBox.Depth = 0
+        RemMeAdminBox.ForeColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
+        RemMeAdminBox.Location = New Point(1107, 279)
+        RemMeAdminBox.Margin = New Padding(0)
+        RemMeAdminBox.MouseLocation = New Point(-1, -1)
+        RemMeAdminBox.MouseState = MaterialSkin.MouseState.HOVER
+        RemMeAdminBox.Name = "RemMeAdminBox"
+        RemMeAdminBox.ReadOnly = False
+        RemMeAdminBox.Ripple = True
+        RemMeAdminBox.Size = New Size(137, 37)
+        RemMeAdminBox.TabIndex = 9
+        RemMeAdminBox.Text = "Remember me"
+        RemMeAdminBox.UseVisualStyleBackColor = True
         ' 
         ' AdminGoBack
         ' 
@@ -751,6 +765,245 @@ Partial Class Form1
         MaterialLabel9.TabIndex = 19
         MaterialLabel9.Text = "Grading System of Group 6 of BSIT2C"
         ' 
+        ' RegisterProfessorCard
+        ' 
+        RegisterProfessorCard.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(255))
+        RegisterProfessorCard.Controls.Add(GoBackToProfSignIn)
+        RegisterProfessorCard.Controls.Add(ProfClearBtn)
+        RegisterProfessorCard.Controls.Add(MaterialLabel14)
+        RegisterProfessorCard.Controls.Add(MaterialLabel15)
+        RegisterProfessorCard.Controls.Add(ProfConfirmPass)
+        RegisterProfessorCard.Controls.Add(ProfPassword)
+        RegisterProfessorCard.Controls.Add(ProfUsername)
+        RegisterProfessorCard.Controls.Add(ProfEmail)
+        RegisterProfessorCard.Controls.Add(ProfRegisterBtn)
+        RegisterProfessorCard.Controls.Add(ProfMiddleName)
+        RegisterProfessorCard.Controls.Add(ProfLastName)
+        RegisterProfessorCard.Controls.Add(ProfFirstName)
+        RegisterProfessorCard.Depth = 0
+        RegisterProfessorCard.ForeColor = Color.FromArgb(CByte(222), CByte(0), CByte(0), CByte(0))
+        RegisterProfessorCard.Location = New Point(688, 100)
+        RegisterProfessorCard.Margin = New Padding(14)
+        RegisterProfessorCard.MouseState = MaterialSkin.MouseState.HOVER
+        RegisterProfessorCard.Name = "RegisterProfessorCard"
+        RegisterProfessorCard.Padding = New Padding(30)
+        RegisterProfessorCard.Size = New Size(526, 833)
+        RegisterProfessorCard.TabIndex = 7
+        RegisterProfessorCard.Visible = False
+        ' 
+        ' GoBackToProfSignIn
+        ' 
+        GoBackToProfSignIn.AutoSize = True
+        GoBackToProfSignIn.Cursor = Cursors.Hand
+        GoBackToProfSignIn.Depth = 0
+        GoBackToProfSignIn.Font = New Font("Roboto", 12F, FontStyle.Italic, GraphicsUnit.Pixel)
+        GoBackToProfSignIn.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis
+        GoBackToProfSignIn.Location = New Point(33, 773)
+        GoBackToProfSignIn.MouseState = MaterialSkin.MouseState.HOVER
+        GoBackToProfSignIn.Name = "GoBackToProfSignIn"
+        GoBackToProfSignIn.Size = New Size(46, 15)
+        GoBackToProfSignIn.TabIndex = 47
+        GoBackToProfSignIn.Text = "Go Back"
+        ' 
+        ' ProfClearBtn
+        ' 
+        ProfClearBtn.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        ProfClearBtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default
+        ProfClearBtn.Depth = 0
+        ProfClearBtn.HighEmphasis = True
+        ProfClearBtn.Icon = Nothing
+        ProfClearBtn.Location = New Point(330, 761)
+        ProfClearBtn.Margin = New Padding(4, 6, 4, 6)
+        ProfClearBtn.MouseState = MaterialSkin.MouseState.HOVER
+        ProfClearBtn.Name = "ProfClearBtn"
+        ProfClearBtn.NoAccentTextColor = Color.Empty
+        ProfClearBtn.Size = New Size(66, 36)
+        ProfClearBtn.TabIndex = 46
+        ProfClearBtn.Text = "clear"
+        ProfClearBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained
+        ProfClearBtn.UseAccentColor = True
+        ProfClearBtn.UseVisualStyleBackColor = True
+        ' 
+        ' MaterialLabel14
+        ' 
+        MaterialLabel14.AutoSize = True
+        MaterialLabel14.Depth = 0
+        MaterialLabel14.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        MaterialLabel14.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1
+        MaterialLabel14.Location = New Point(33, 71)
+        MaterialLabel14.MouseState = MaterialSkin.MouseState.HOVER
+        MaterialLabel14.Name = "MaterialLabel14"
+        MaterialLabel14.Size = New Size(179, 19)
+        MaterialLabel14.TabIndex = 27
+        MaterialLabel14.Text = "Enter required credentials"
+        ' 
+        ' MaterialLabel15
+        ' 
+        MaterialLabel15.AutoSize = True
+        MaterialLabel15.Depth = 0
+        MaterialLabel15.Font = New Font("Roboto", 34F, FontStyle.Bold, GraphicsUnit.Pixel)
+        MaterialLabel15.FontType = MaterialSkin.MaterialSkinManager.fontType.H4
+        MaterialLabel15.Location = New Point(33, 30)
+        MaterialLabel15.MouseState = MaterialSkin.MouseState.HOVER
+        MaterialLabel15.Name = "MaterialLabel15"
+        MaterialLabel15.Size = New Size(332, 41)
+        MaterialLabel15.TabIndex = 26
+        MaterialLabel15.Text = "Professor registration"
+        ' 
+        ' ProfConfirmPass
+        ' 
+        ProfConfirmPass.AnimateReadOnly = False
+        ProfConfirmPass.BorderStyle = BorderStyle.None
+        ProfConfirmPass.Depth = 0
+        ProfConfirmPass.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        ProfConfirmPass.Hint = "Enter confirm password"
+        ProfConfirmPass.LeadingIcon = Nothing
+        ProfConfirmPass.Location = New Point(33, 628)
+        ProfConfirmPass.MaxLength = 50
+        ProfConfirmPass.MouseState = MaterialSkin.MouseState.OUT
+        ProfConfirmPass.Multiline = False
+        ProfConfirmPass.Name = "ProfConfirmPass"
+        ProfConfirmPass.Password = True
+        ProfConfirmPass.Size = New Size(460, 50)
+        ProfConfirmPass.TabIndex = 23
+        ProfConfirmPass.Text = ""
+        ProfConfirmPass.TrailingIcon = Nothing
+        ProfConfirmPass.UseAccent = False
+        ' 
+        ' ProfPassword
+        ' 
+        ProfPassword.AnimateReadOnly = False
+        ProfPassword.BorderStyle = BorderStyle.None
+        ProfPassword.Depth = 0
+        ProfPassword.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        ProfPassword.Hint = "Enter password"
+        ProfPassword.LeadingIcon = My.Resources.Resources.padlock
+        ProfPassword.Location = New Point(33, 548)
+        ProfPassword.MaxLength = 50
+        ProfPassword.MouseState = MaterialSkin.MouseState.OUT
+        ProfPassword.Multiline = False
+        ProfPassword.Name = "ProfPassword"
+        ProfPassword.Password = True
+        ProfPassword.Size = New Size(460, 50)
+        ProfPassword.TabIndex = 22
+        ProfPassword.Text = ""
+        ProfPassword.TrailingIcon = Nothing
+        ProfPassword.UseAccent = False
+        ' 
+        ' ProfUsername
+        ' 
+        ProfUsername.AnimateReadOnly = False
+        ProfUsername.BorderStyle = BorderStyle.None
+        ProfUsername.Depth = 0
+        ProfUsername.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        ProfUsername.Hint = "Enter username"
+        ProfUsername.LeadingIcon = My.Resources.Resources.user
+        ProfUsername.Location = New Point(33, 468)
+        ProfUsername.MaxLength = 50
+        ProfUsername.MouseState = MaterialSkin.MouseState.OUT
+        ProfUsername.Multiline = False
+        ProfUsername.Name = "ProfUsername"
+        ProfUsername.Size = New Size(460, 50)
+        ProfUsername.TabIndex = 21
+        ProfUsername.Text = ""
+        ProfUsername.TrailingIcon = Nothing
+        ProfUsername.UseAccent = False
+        ' 
+        ' ProfEmail
+        ' 
+        ProfEmail.AnimateReadOnly = False
+        ProfEmail.BorderStyle = BorderStyle.None
+        ProfEmail.Depth = 0
+        ProfEmail.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        ProfEmail.Hint = "Enter email address"
+        ProfEmail.LeadingIcon = My.Resources.Resources.email
+        ProfEmail.Location = New Point(33, 388)
+        ProfEmail.MaxLength = 50
+        ProfEmail.MouseState = MaterialSkin.MouseState.OUT
+        ProfEmail.Multiline = False
+        ProfEmail.Name = "ProfEmail"
+        ProfEmail.Size = New Size(460, 50)
+        ProfEmail.TabIndex = 20
+        ProfEmail.Text = ""
+        ProfEmail.TrailingIcon = Nothing
+        ProfEmail.UseAccent = False
+        ' 
+        ' ProfRegisterBtn
+        ' 
+        ProfRegisterBtn.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        ProfRegisterBtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default
+        ProfRegisterBtn.Depth = 0
+        ProfRegisterBtn.HighEmphasis = True
+        ProfRegisterBtn.Icon = Nothing
+        ProfRegisterBtn.Location = New Point(404, 761)
+        ProfRegisterBtn.Margin = New Padding(4, 6, 4, 6)
+        ProfRegisterBtn.MouseState = MaterialSkin.MouseState.HOVER
+        ProfRegisterBtn.Name = "ProfRegisterBtn"
+        ProfRegisterBtn.NoAccentTextColor = Color.Empty
+        ProfRegisterBtn.Size = New Size(89, 36)
+        ProfRegisterBtn.TabIndex = 19
+        ProfRegisterBtn.Text = "Register"
+        ProfRegisterBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained
+        ProfRegisterBtn.UseAccentColor = False
+        ProfRegisterBtn.UseVisualStyleBackColor = True
+        ' 
+        ' ProfMiddleName
+        ' 
+        ProfMiddleName.AnimateReadOnly = False
+        ProfMiddleName.BorderStyle = BorderStyle.None
+        ProfMiddleName.Depth = 0
+        ProfMiddleName.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        ProfMiddleName.Hint = "Enter middle name"
+        ProfMiddleName.LeadingIcon = Nothing
+        ProfMiddleName.Location = New Point(33, 308)
+        ProfMiddleName.MaxLength = 50
+        ProfMiddleName.MouseState = MaterialSkin.MouseState.OUT
+        ProfMiddleName.Multiline = False
+        ProfMiddleName.Name = "ProfMiddleName"
+        ProfMiddleName.Size = New Size(460, 50)
+        ProfMiddleName.TabIndex = 13
+        ProfMiddleName.Text = ""
+        ProfMiddleName.TrailingIcon = Nothing
+        ProfMiddleName.UseAccent = False
+        ' 
+        ' ProfLastName
+        ' 
+        ProfLastName.AnimateReadOnly = False
+        ProfLastName.BorderStyle = BorderStyle.None
+        ProfLastName.Depth = 0
+        ProfLastName.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        ProfLastName.Hint = "Enter last name"
+        ProfLastName.LeadingIcon = Nothing
+        ProfLastName.Location = New Point(33, 228)
+        ProfLastName.MaxLength = 50
+        ProfLastName.MouseState = MaterialSkin.MouseState.OUT
+        ProfLastName.Multiline = False
+        ProfLastName.Name = "ProfLastName"
+        ProfLastName.Size = New Size(460, 50)
+        ProfLastName.TabIndex = 12
+        ProfLastName.Text = ""
+        ProfLastName.TrailingIcon = Nothing
+        ProfLastName.UseAccent = False
+        ' 
+        ' ProfFirstName
+        ' 
+        ProfFirstName.AnimateReadOnly = False
+        ProfFirstName.BorderStyle = BorderStyle.None
+        ProfFirstName.Depth = 0
+        ProfFirstName.Font = New Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel)
+        ProfFirstName.Hint = "Enter first name"
+        ProfFirstName.LeadingIcon = Nothing
+        ProfFirstName.Location = New Point(33, 148)
+        ProfFirstName.MaxLength = 50
+        ProfFirstName.MouseState = MaterialSkin.MouseState.OUT
+        ProfFirstName.Multiline = False
+        ProfFirstName.Name = "ProfFirstName"
+        ProfFirstName.Size = New Size(460, 50)
+        ProfFirstName.TabIndex = 11
+        ProfFirstName.Text = ""
+        ProfFirstName.TrailingIcon = Nothing
+        ProfFirstName.UseAccent = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -761,6 +1014,7 @@ Partial Class Form1
         Controls.Add(TeacherSignInCard)
         Controls.Add(AdminSignInCard)
         Controls.Add(SelectUserCard)
+        Controls.Add(RegisterProfessorCard)
         FormStyle = FormStyles.ActionBar_None
         Name = "Form1"
         Padding = New Padding(3, 24, 50, 50)
@@ -786,6 +1040,8 @@ Partial Class Form1
         AdminSignInCard.PerformLayout()
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
+        RegisterProfessorCard.ResumeLayout(False)
+        RegisterProfessorCard.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -794,7 +1050,7 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ProfessorPassword As MaterialSkin.Controls.MaterialTextBox
     Friend WithEvents ProfessorUsername As MaterialSkin.Controls.MaterialTextBox
-    Friend WithEvents MaterialCheckbox1 As MaterialSkin.Controls.MaterialCheckbox
+    Friend WithEvents RemMeChkBox As MaterialSkin.Controls.MaterialCheckbox
     Friend WithEvents TeacherLogin As MaterialSkin.Controls.MaterialButton
     Friend WithEvents SelectUserCard As MaterialSkin.Controls.MaterialCard
     Friend WithEvents PictureBox5 As PictureBox
@@ -804,7 +1060,7 @@ Partial Class Form1
     Friend WithEvents SelectAdminCard As MaterialSkin.Controls.MaterialCard
     Friend WithEvents SelectAdminPictureBox As PictureBox
     Friend WithEvents AdminSignInCard As MaterialSkin.Controls.MaterialCard
-    Friend WithEvents MaterialCheckbox3 As MaterialSkin.Controls.MaterialCheckbox
+    Friend WithEvents RemMeAdminBox As MaterialSkin.Controls.MaterialCheckbox
     Friend WithEvents AdminLoginBtn As MaterialSkin.Controls.MaterialButton
     Friend WithEvents AdminPasswordTxtBox As MaterialSkin.Controls.MaterialTextBox
     Friend WithEvents AdminUsernameTxtBox As MaterialSkin.Controls.MaterialTextBox
@@ -827,11 +1083,24 @@ Partial Class Form1
     Friend WithEvents MaterialLabel7 As MaterialSkin.Controls.MaterialLabel
     Friend WithEvents MaterialLabel8 As MaterialSkin.Controls.MaterialLabel
     Friend WithEvents MaterialLabel9 As MaterialSkin.Controls.MaterialLabel
-    Friend WithEvents MaterialLabel11 As MaterialSkin.Controls.MaterialLabel
+    Friend WithEvents CreateAccountProfBtn As MaterialSkin.Controls.MaterialLabel
     Friend WithEvents MaterialLabel10 As MaterialSkin.Controls.MaterialLabel
     Friend WithEvents ProfessorGoBack As MaterialSkin.Controls.MaterialLabel
     Friend WithEvents MaterialLabel12 As MaterialSkin.Controls.MaterialLabel
     Friend WithEvents MaterialLabel13 As MaterialSkin.Controls.MaterialLabel
     Friend WithEvents AdminGoBack As MaterialSkin.Controls.MaterialLabel
+    Friend WithEvents RegisterProfessorCard As MaterialSkin.Controls.MaterialCard
+    Friend WithEvents ProfClearBtn As MaterialSkin.Controls.MaterialButton
+    Friend WithEvents MaterialLabel14 As MaterialSkin.Controls.MaterialLabel
+    Friend WithEvents MaterialLabel15 As MaterialSkin.Controls.MaterialLabel
+    Friend WithEvents ProfConfirmPass As MaterialSkin.Controls.MaterialTextBox
+    Friend WithEvents ProfPassword As MaterialSkin.Controls.MaterialTextBox
+    Friend WithEvents ProfUsername As MaterialSkin.Controls.MaterialTextBox
+    Friend WithEvents ProfEmail As MaterialSkin.Controls.MaterialTextBox
+    Friend WithEvents ProfRegisterBtn As MaterialSkin.Controls.MaterialButton
+    Friend WithEvents ProfMiddleName As MaterialSkin.Controls.MaterialTextBox
+    Friend WithEvents ProfLastName As MaterialSkin.Controls.MaterialTextBox
+    Friend WithEvents ProfFirstName As MaterialSkin.Controls.MaterialTextBox
+    Friend WithEvents GoBackToProfSignIn As MaterialSkin.Controls.MaterialLabel
 
 End Class
